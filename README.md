@@ -47,7 +47,7 @@ General overview of folder/files
 ```
 | - _data/
 | - _plugins/
-| - _posts_/
+| - _posts/
 | - _tabs/
 | - .github/
     |-- workflows/
@@ -56,6 +56,41 @@ General overview of folder/files
       |-- favicons/
     |-- lib/
 ```
+
+Let's see what each folder contains:
+
+### _data
+`contact.yml` - `share.yml` </br>
+- Contain configurations for socials and sharing blog pages
+
+### _plugins
+`posts-lastmod-hook.rb` </br>
+
+### _posts
+Stores all blog posts </br>
+<u>example:</u> `year-month-day-TITLE-GOES-HERE.md` </br>
+`2024-03-25-how-to-be-happy.md`
+
+### _tabs
+`about.md` - `archives.md` - `categories.md` - `tags.md` </br>
+Tabs appear on the left sidebar
+- Each tab must use markdown extension
+
+
+### .github
+`pages-deploy.yml` </br>
+- Used to deploy on GitHub pages
+
+### assets
+`img` - `lib` </br>
+Place to store all static assets.</br>
+- <u><b>img</b></u>: contains all kinds of images / visual media</br>
+- <u><b>lib</b></u>: contains submodule that is generated from chirpy template
+
+
+<!-- `a` - `b` - `c` - `d` -->
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
