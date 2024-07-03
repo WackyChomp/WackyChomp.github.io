@@ -1,56 +1,106 @@
-# Chirpy Starter
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+<!--
+bundle install
+	-install packages
+bundle exec jekyll s
+	-run on localhost
+-->
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+</br>
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+<div align="center" id='readme-top'>
+  <a href="https://github.com/WackyChomp/WackyChomp.github.io">
+    <img src="./assets/img/pixel-writing.gif" alt="Logo" width="200" height="150">
+  </a>
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+  <h3 align="center">WackyChomp Blog</h3>
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+  <p align="center">
+    Peer inside my mind and see the world through my lens!
+    <br />
+    <a href="https://github.com/WackyChomp/WackyChomp.github.io"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/WackyChomp/WackyChomp.github.io/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/WackyChomp/WackyChomp.github.io/issues">Request Feature</a>
+  </p>
+</div>
+
+
+<div align="center">
+  This blog has been generated with open source Jekyll theme <u><b>Chirpy</b></u>.
+
+  [Chirpy Blog](https://chirpy.cotes.page/) | 
+  [Source Code](https://github.com/cotes2020/jekyll-theme-chirpy)
+  ------ [Chirpy Starter Template](https://github.com/cotes2020/chirpy-starter)
+</div>
+
+
+## Tech Stack
+[![Ruby][Ruby]][ruby-url] [![HTML5][HTML]][ruby-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Folder Structure
+General overview of folder/files
+```
+| - _data/
+| - _plugins/
+| - _posts/
+| - _tabs/
+| - .github/
+    |-- workflows/
+| - assets/
+    |-- img/
+      |-- favicons/
+    |-- lib/
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Let's see what each folder contains:
 
-## Prerequisites
+### _data
+`contact.yml` - `share.yml` </br>
+- Contain configurations for socials and sharing blog pages
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+### _plugins
+`posts-lastmod-hook.rb` </br>
 
-## Installation
+### _posts
+Stores all blog posts </br>
+<u>example:</u> `year-month-day-TITLE-GOES-HERE.md` </br>
+`2024-03-25-how-to-be-happy.md`
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+### _tabs
+`about.md` - `archives.md` - `categories.md` - `tags.md` </br>
+Tabs appear on the left sidebar
+- Each tab must use markdown extension
 
-Then clone it to your local machine and run:
 
-```console
-$ bundle
-```
+### .github
+`pages-deploy.yml` </br>
+- Used to deploy on GitHub pages
 
-## Usage
+### assets
+`img` - `lib` </br>
+Place to store all static assets.</br>
+- <u><b>img</b></u>: contains all kinds of images / visual media</br>
+- <u><b>lib</b></u>: contains submodule that is generated from chirpy template
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
-## License
+<!-- `a` - `b` - `c` - `d` -->
 
-This work is published under [MIT][mit] License.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES
+https://www.markdownguide.org/basic-syntax/#reference-style-links
+https://github.com/Envoy-VC/awesome-badges
+-->
+
+[Ruby]: https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white
+[ruby-url]: https://www.ruby-lang.org/en/
+
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
