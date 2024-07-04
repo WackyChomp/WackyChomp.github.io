@@ -37,6 +37,16 @@ bundle exec jekyll s
 </div>
 
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#folder-structure">Folder Structure</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
 ## Tech Stack
 [![Ruby][Ruby]][ruby-url] [![HTML5][HTML]][ruby-url]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,6 +103,20 @@ Place to store all static assets.</br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of resources for inspiration and guide you into a direction:
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Badges](https://github.com/Envoy-VC/awesome-badges)
+* [Jekyll](https://jekyllrb.com/)
+
+<!--* []() -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES
