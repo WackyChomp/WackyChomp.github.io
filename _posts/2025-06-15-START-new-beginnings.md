@@ -1,7 +1,7 @@
 ---
 title: New Beginnings
 date: 2025-06-15 12:00:00 -500
-categories: [random, new]
+categories: [random,new]
 tags: [introduction]     # TAG names should always be lowercase
 image: "https://i.pinimg.com/originals/93/f8/9b/93f89b965b719a175e2ac7de6c3e8b54.gif"
 ---
