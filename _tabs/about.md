@@ -4,18 +4,19 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
+-->
 
 <div align="center">
 <img src="https://c.tenor.com/SYHFZLZI2RwAAAAC/tenor.gif" alt='smiley-wave-gif' width="200" height="200"/>
 </div>
 
 
-## READ ME / What is this place?
+## READ ME
 - Toggle light/dark mode in the nav menu (bottom left) !
 - Temporary personal/blog site until I figure out a long-term solution.
-- Using Google Docs/Forms to avoid leaving permanent digital footprint (can easily deactivate links)
+- Using Google Docs/Forms to avoid leaving permanent digital footprints (can easily deactivate links)
 
 
 ### What am I up to?
